@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Add to index.css */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.hero-bg {
+    background-image: radial-gradient(circle at 2px 2px, #3b82f6 1px, transparent 0);
+    background-size: 40px 40px;
+    background-color: #0f172a; /* Slate 900 */
+}
