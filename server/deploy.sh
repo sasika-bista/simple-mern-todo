@@ -4,7 +4,7 @@ set -euo pipefail
 USERNAME="sasikabista"
 SERVER_IMAGE="mern-server-deploy"
 CLIENT_IMAGE="mern-client-deploy"
-TAG="v1"
+TAG="v2"
 
 SERVER_FULL_NAME="$USERNAME/$SERVER_IMAGE:$TAG"
 SERVER_CONTAINER="mern-server-deploy"

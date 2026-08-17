@@ -9,3 +9,4 @@ RUN npm install --legacy-peer-deps
 EXPOSE 5000
 
 CMD ["npm","run", "dev"]
+
