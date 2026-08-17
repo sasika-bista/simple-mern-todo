@@ -14,7 +14,7 @@ CLIENT_CONTAINER="mern-client-deploy"
 # --- connection details --
 KEY="$HOME/mern-key.pem"
 EC2_HOST="ec2-user@54.226.227.244"
-echo "Deploying $SERVER_FULL_NAME to $EC2_HOST ..."
+echo "Deploying again $SERVER_FULL_NAME to $EC2_HOST ..."
 
 # run all the deploy commands ON the server, over SSH
 ssh -o StrictHostKeyChecking=accept-new -i "$KEY" "$EC2_HOST" "

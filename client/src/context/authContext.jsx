@@ -5,7 +5,8 @@ import axios from 'axios';
 export const AuthContext = createContext();
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL,
+    // baseURL: import.meta.env.VITE_API_URL,
+    baseURL: "http://107.20.254.218:5173:5000/api",
     withCredentials: true, // Include cookies in requests
 });
 
